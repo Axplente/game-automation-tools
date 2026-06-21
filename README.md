@@ -35,12 +35,12 @@ Before running the bot, you must define the target box position to match your ac
 3. Update the `X` and `Y` integers to target the center of the color-changing canvas on your display panel.
 
 ### Script Execution and Detailed Usage
-1. Open a terminal path inside the subfolder:
-   cd human_benchmark_ReactionTime
+1. Navigate to the script subfolder:
+   `cd human_benchmark_ReactionTime`
 2. Install the targeted environment requirements:
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
 3. Execute the module:
-   python human_benchmark_ReactionTime.py
+   `python human_benchmark_ReactionTime.py`
 4. **Runtime Operations:**
    * Open the target benchmark link in your browser window.
    * Press `F9` to toggle the active monitoring thread on or off. 
@@ -66,11 +66,11 @@ To ensure the browser application remain responsive and to prevent input blockin
 
 ### Script Execution and Detailed Usage
 1. Navigate to the script subfolder:
-   cd human_benchmark_typer
+   `cd human_benchmark_typer`
 2. Install the necessary dependency binaries:
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
 3. Execute the script module:
-   python human_benchmark_typer.py
+   `python human_benchmark_typer.py`
 4. **Runtime Operations:**
    * The script will spin up an automated Chrome instance navigating directly to the typing test.
    * Press `F7` to trigger the DOM scrapper to parse and pull the active text block into memory.
@@ -97,11 +97,11 @@ Once retrieved, the text goes through a regex cleaning pipeline that strips hidd
 
 ### Script Execution and Detailed Usage
 1. Navigate to the designated subfolder path:
-   cd typeracer_bot
+   `cd typeracer_bot`
 2. Install the subfolder module requirements:
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
 3. Run the automation program:
-   python typeracer_bot.py
+   `python typeracer_bot.py`
 4. **Runtime Operations:**
    * A clean Chrome browser instance will open automatically and load the typing workspace.
    * Enter a live or solo racing lobby.
@@ -118,7 +118,7 @@ These automation utilities require a **Windows OS Platform** due to their core a
 
 ### Local Dependency Isolation
 To run any tool in this suite, navigate into its designated subfolder and install its isolated dependencies using the project's local manifest file:
-   pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## License
 Distributed under the terms of the open-source MIT License.
